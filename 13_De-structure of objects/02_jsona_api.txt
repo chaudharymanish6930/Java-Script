@@ -1,0 +1,13 @@
+{
+    "name":"manish choudhary"
+    "course":"BTech"
+    "session":"2023-2027"
+}
+
+// another ways
+
+[
+    {},
+    {},
+    {}
+]
