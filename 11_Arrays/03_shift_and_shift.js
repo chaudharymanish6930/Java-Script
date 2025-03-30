@@ -3,7 +3,7 @@ console.log(myarr)
 
 // unshift method is used to add element at the beginning of the array
 myarr.unshift(5)
-console.log(myarr)
+console.log(myarr)  // [5,10,20,30,40,50]
 
 // shift method is used to remove element from the beginning of the array
 myarr.shift()
