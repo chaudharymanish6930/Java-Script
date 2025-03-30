@@ -5,3 +5,10 @@ function myname() {
 
 myname // refernces
 myname() // call
+
+// another way to declared a function
+const one= function(){
+    let username="rohit"
+    console.log(this.username)
+}
+ one()
