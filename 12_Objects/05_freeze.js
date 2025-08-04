@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let info={
     name:"rohit sharma",
     age:34,
@@ -11,4 +12,19 @@ console.log(info);
 // name: 'rohit sharma',
 //  age: 34,
 //  email:"superhitsharma@gmail.com"
+=======
+let info={
+    name:"rohit sharma",
+    age:34,
+    email:"superhitsharma@gmail.com"
+}
+
+Object.freeze(info);
+info.name="virat kohli";
+console.log(info); 
+// { 
+// name: 'rohit sharma',
+//  age: 34,
+//  email:"superhitsharma@gmail.com"
+>>>>>>> 5c3f3ff (first)
 // }

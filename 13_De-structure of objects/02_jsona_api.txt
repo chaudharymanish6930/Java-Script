@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name":"manish choudhary"
     "course":"BTech"
@@ -10,4 +11,18 @@
     {},
     {},
     {}
+=======
+{
+    "name":"manish choudhary"
+    "course":"BTech"
+    "session":"2023-2027"
+}
+
+// another ways
+
+[
+    {},
+    {},
+    {}
+>>>>>>> 5c3f3ff (first)
 ]

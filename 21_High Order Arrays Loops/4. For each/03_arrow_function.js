@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let array=["js","css","html","c++","c"]
 array.forEach((item, index, arr)=>{
     console.log(item, index, arr)
@@ -7,4 +8,15 @@ array.forEach((item, index, arr)=>{
 // css 1 [ 'js', 'css', 'html', 'c++', 'c' ] 
 // html 2 [ 'js', 'css', 'html', 'c++', 'c' ]
 // c++ 3 [ 'js', 'css', 'html', 'c++', 'c' ] 
+=======
+let array=["js","css","html","c++","c"]
+array.forEach((item, index, arr)=>{
+    console.log(item, index, arr)
+})
+
+// js 0 [ 'js', 'css', 'html', 'c++', 'c' ]
+// css 1 [ 'js', 'css', 'html', 'c++', 'c' ] 
+// html 2 [ 'js', 'css', 'html', 'c++', 'c' ]
+// c++ 3 [ 'js', 'css', 'html', 'c++', 'c' ] 
+>>>>>>> 5c3f3ff (first)
 // c 4 [ 'js', 'css', 'html', 'c++', 'c' ] 
