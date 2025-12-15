@@ -12,7 +12,7 @@ console.log(mydate.toLocaleString());  // output: 9/8/2021, 12:00:00 PM
 console.log(mydate.toLocaleTimeString());  // output: 12:00:00 PM
 console.log(mydate.toJSON()); // output: 2021-09-08T06:30:00.000Z
 console.log(mydate.toUTCString());  // output: Wed, 08 Sep 2021 06:30:00 GMT
-=======
+// =======
 //   dates
 let mydate=new Date();
 console.log(mydate);
@@ -26,5 +26,10 @@ console.log(mydate.toLocaleString());  // output: 9/8/2021, 12:00:00 PM
 console.log(mydate.toLocaleTimeString());  // output: 12:00:00 PM
 console.log(mydate.toJSON()); // output: 2021-09-08T06:30:00.000Z
 console.log(mydate.toUTCString());  // output: Wed, 08 Sep 2021 06:30:00 GMT
+<<<<<<< HEAD
 >>>>>>> 5c3f3ff (first)
 console.log(mydate.toISOString());  // output: 2021-09-08T06:30:00.000Z
+=======
+console.log(mydate.toISOString());  // output: 2021-09-08T06:30:00.000Z
+console.log(mydate.getFullYear());  // output: 2021
+>>>>>>> 7eab932 (first)
