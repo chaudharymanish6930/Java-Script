@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // object literals
 
 const jsuser={
@@ -13,19 +12,4 @@ const jsuser={
 // accessed by the dots   mostly ussed
 console.log(jsuser.email);  // manishch@gmail.com
 console.log(jsuser["location"])   // India
-=======
-// object literals
 
-const jsuser={
-    name: 'Manish',  // key as strinng by default
-    age: 18,
-    location: 'India',
-    email: "manishch@gmail.com",
-    isloggedin: true,
-    lastlogin:["monday", "tuesday", "wednesday"],
-}
-
-// accessed by the dots   mostly ussed
-console.log(jsuser.email);  // manishch@gmail.com
-console.log(jsuser["location"])   // India
->>>>>>> 5c3f3ff (first)
