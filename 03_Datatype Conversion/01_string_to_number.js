@@ -19,3 +19,11 @@ let o=33
 let r=String(o)
 console.log(r);   // 33
 console.log(typeof r); // string
+
+score =null
+console.log(typeof score);    // object
+
+valueinNumber = Number(score)   
+console.log(typeof valueinNumber);  // number
+console.log(valueinNumber);  /// 0
+

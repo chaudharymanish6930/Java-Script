@@ -2,6 +2,7 @@
 const score=100
 const scorevalue=100.9
 
+console.log(typeof score)
 console.log(typeof scorevalue);
 
 const isloggedin=false
