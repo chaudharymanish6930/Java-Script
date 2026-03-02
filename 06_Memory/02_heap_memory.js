@@ -8,6 +8,6 @@ let useone={
 
  usertwo.email="manish@google.com"
  
- console.log(useone.email)    // both the values are same in the outputṇ
+ console.log(useone.email)    // both the values are same
 
  console.log(usertwo.email)
