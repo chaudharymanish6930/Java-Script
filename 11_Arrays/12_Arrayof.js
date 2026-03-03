@@ -2,7 +2,7 @@ console.log(Array.from({name:"hitesh"}))
 // []    type is object
 
 let score =[1,2,3,4,5,6,7,8,9,10];
-console.log(Array.isArray(7)); // true
+console.log(Array.isArray(7)); // false
 
 let a=100;
 let b=200;

@@ -4,7 +4,7 @@ function calcluateprice(num1){
 }
 console.log(calcluateprice(100, 200, 300 )) // 100
 
-// 2
+// 2 rest and spread operator look same but they are different
 function calcluateprices(...num1){
     return num1
 }
@@ -17,3 +17,4 @@ function calculate(var1,var2,...num1){
 }
 
 console.log(calculate(100, 200, 300, 400, 500)) // [ 300, 400, 500 ]
+// var1=100, var2=200, num1=[300, 400, 500]

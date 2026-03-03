@@ -6,7 +6,8 @@ console.log(myarr); // [1,2,3,4,5,6,7,8,9,10]
 
 // splice method
 let myarr3=[1,2,3,4,5,6,7,8,9,10];
-let myarr4=myarr3.splice(2,5);
+let myarr4=myarr3.splice(2,5); // 5 is number of element to be removed
+console.log(myarr3);
 console.log(myarr4); // [3,4,5,6,7]
 
 console.log(myarr3); // [1,2,8,9,10]

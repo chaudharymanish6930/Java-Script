@@ -3,7 +3,7 @@
 const mysym=Symbol('mysymbol');  // symbol
 
 const jsuser={
-    name: 'Manish',  // keys as a string
+    name: 'Manish',
     age: 18,
     location: 'India',
     mysym: 'my symbol',
@@ -22,7 +22,7 @@ let jsuser1={
     name: 'Manish',  // keys as a string
     age: 18,
     location: 'India',
-    [mysym]: 'my symbol',
+    [mysym]: 'my symbol',  // here now this is symbol key
     lastlogin:["monday", "tuesday", "wednesday"],
 }
 

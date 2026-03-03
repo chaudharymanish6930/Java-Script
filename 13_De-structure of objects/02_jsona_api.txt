@@ -1,15 +1,19 @@
-<<<<<<< HEAD
 {
-    "name":"manish choudhary"
-    "course":"BTech"
+    "name":"manish choudhary",
+    "course":"BTech",
     "session":"2023-2027"
 }
-
+// key values in the string
 // another ways
 
 [
     {},
     {},
     {}
-
 ]
+
+randomuser.me
+https://randomuser.me/api
+
+json formatter
+https://jsonformatter.org/

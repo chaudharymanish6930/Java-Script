@@ -7,7 +7,7 @@ console.log(myarr)  // [5,10,20,30,40,50]
 
 // shift method is used to remove element from the beginning of the array
 myarr.shift()
-console.log(myarr)    //  [10,20,30,40,50]
+console.log(myarr)   //  [10,20,30,40,50]
 
 myarr.shift()
 console.log(myarr)   // [20,30,40,50]

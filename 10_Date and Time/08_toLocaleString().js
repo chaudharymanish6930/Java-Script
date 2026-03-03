@@ -2,6 +2,7 @@ let newdate= new Date()
 console.log(newdate)
 
 console.log(newdate.getDay())
-newdate.toLocaleString("default"),{
-    weekday:"long"
-}
+newdate.toLocaleString("default",{
+    weekday:"long",
+    timeZone:"UTC"
+})

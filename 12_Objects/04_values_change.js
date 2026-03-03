@@ -9,5 +9,4 @@ info.age=35;
 console.log(info);
 
 info.email="rohit sharma@gmail.com";
-
 console.log(info);
