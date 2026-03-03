@@ -6,6 +6,7 @@ console.log(one(4))  // its is  correct  5
 
 // now interesting...
 // two()  it is not allowed
+// two also konw as the experession function
 const two =function(num){
     return num +2
 }

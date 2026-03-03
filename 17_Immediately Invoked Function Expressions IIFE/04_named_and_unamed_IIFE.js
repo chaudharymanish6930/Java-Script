@@ -3,6 +3,6 @@
     console.log(`hello dosto!!`)
 }) ();
 
-// unamed IIFE
 
+// unamed IIFE
 ((name)=>(console.log(`${name}`)))("MS Dhoni")

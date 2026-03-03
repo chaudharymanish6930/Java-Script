@@ -16,6 +16,6 @@ console.log(info.greeting()); // Hello
 info.greeting2 = function(){
     console.log(`hello js user, ${this.name}`);
 }
-
+console.log(info); // { name: 'rohit sharma', age: 34, email:
 console.log(info.greeting2); // [Function: greeting2]
 console.log(info.greeting2()); // hello js user, rohit sharma

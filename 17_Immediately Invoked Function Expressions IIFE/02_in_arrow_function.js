@@ -1,4 +1,6 @@
-// 2 way IIFE  in  global scope pollution
+//  IIFE  in  global scope pollution
+// problem occurs when we have to write a code in global scope and it may cause pollution in global scope. To avoid this we can use IIFE in arrow function.
+
 (function code(){
     console.log("hello duniya!")
 })();

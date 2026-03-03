@@ -8,7 +8,7 @@ const user={
 }
 // 1
 user.welcomeMessage() // manish choudhary, welcome to website
+
 // 2
 user.username="Vishal"
-
 user.welcomeMessage() // Vishal, welcome to website

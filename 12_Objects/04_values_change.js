@@ -5,7 +5,7 @@ let info={
 }
 console.log(info);
 
-info.age=35;
+info.age=3500;
 console.log(info);
 
 info.email="rohit sharma@gmail.com";

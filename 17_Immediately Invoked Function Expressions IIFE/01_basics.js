@@ -10,3 +10,4 @@ chai();
     console.log("hello duniya!")
 
 })()
+// IIFE in  global scope pollution
