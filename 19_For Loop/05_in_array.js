@@ -3,3 +3,8 @@ for(let i=0;i<myarrayy.length;i++){
     const element=myarrayy[i]
     console.log(element)
 }
+
+for(let i=0;i<=myarrayy.length;i++){
+    const element=myarrayy[i]
+    console.log(element)
+}

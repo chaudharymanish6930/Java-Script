@@ -9,3 +9,6 @@ console.log(val3)   // 20
 
 let val4 = null ?? 10 ?? 20
 console.log(val4)   // 10
+
+let val5 = undefined ?? null
+console.log(val5)   // null

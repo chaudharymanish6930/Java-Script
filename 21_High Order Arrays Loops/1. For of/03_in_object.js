@@ -1,5 +1,5 @@
 const jsuser={
-    name: 'Manish',  // key as strinng by default
+    name: 'Manish', 
     age: 18,
     location: 'India',
     email: "manishch@gmail.com",
@@ -7,6 +7,6 @@ const jsuser={
     lastlogin:["monday", "tuesday", "wednesday"],
 }
 
-// for (const [key,value] of jsuser){
-//     console.log(key,":-",value)
-// }    it is not iterable
+for (const key in jsuser){
+    console.log(key,":-",jsuser[key])
+} //   it is not iterable
