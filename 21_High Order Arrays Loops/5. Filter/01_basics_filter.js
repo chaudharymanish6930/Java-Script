@@ -5,7 +5,6 @@ const num1=num.filter((num)=> num>4)
 console.log(num1);
 
 // 2
-
 const num2=[1,23,54,5,66,554,3]
 const num3=num2.filter((num3)=>{
     return num3>5

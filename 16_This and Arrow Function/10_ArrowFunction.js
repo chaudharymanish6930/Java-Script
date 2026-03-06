@@ -1,0 +1,13 @@
+const add = (a, b) => a+b;
+const minus=(a,b)=>a-b;
+const multply=(a,b)=>a*b;
+const divide=(a,b)=>a/b;
+const opt=(a,b,operation)=>operation(a,b);
+const result=opt(5,3,add);
+const result1=opt(5,3,minus);
+const result2=opt(5,3,multply);
+const result3=opt(5,3,divide);
+console.log(result);
+console.log(result1);
+console.log(result2);
+console.log(result3);

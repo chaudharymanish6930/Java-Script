@@ -5,8 +5,11 @@ console.log(myarr)
 myarr.unshift(5)
 console.log(myarr)  // [5,10,20,30,40,50]
 
+myarr.unshift(0)
+console.log(myarr)  // [0,5,10,20,30,40,50]
+
 // shift method is used to remove element from the beginning of the array
-myarr.shift()
+myarr.shift(10)
 console.log(myarr)   //  [10,20,30,40,50]
 
 myarr.shift()

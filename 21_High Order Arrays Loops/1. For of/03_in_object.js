@@ -7,6 +7,6 @@ const jsuser={
     lastlogin:["monday", "tuesday", "wednesday"],
 }
 
-for (const key in jsuser){
+for (let key in jsuser){
     console.log(key,":-",jsuser[key])
 } //   it is not iterable
