@@ -1,4 +1,15 @@
 let array=["js","css","html","c++","c"]
+
+array.forEach((item)=>{
+    console.log(item)
+})
+
+// js
+// css
+// html
+// c++
+// c
+
 array.forEach((item, index, arr)=>{
     console.log(item, index, arr)
 })

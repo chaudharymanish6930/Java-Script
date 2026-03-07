@@ -10,6 +10,4 @@ map.set('IN',"india") // not again print
 for(const i of map){
     console.log(i)
 }
-// [ 'IN', 'india' ]
-// [ 'USA', 'united state of America' ]      
-// [ 'fr', 'france' ]
+// same as previous one 

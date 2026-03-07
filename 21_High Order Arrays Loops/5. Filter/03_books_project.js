@@ -11,19 +11,11 @@ let books=[
 ]
 // single condtion
 const userbook=books.filter((bk)=>bk.genre==="de")
-// console.log(userbook) 
+console.log(userbook) 
 
 const user=books.filter((bs) => {return bs.edition>1990})
 console.log(user)
-// [
-//     {
-//       title: 'book three',
-//       genre: 'de',
-//       published: '2013',
-//       edition: '1999'
-//     }
-//   ]
 
 // multiple conditions
-let use=books.filter((bk) => bk.genre==="de" && bk.edition>1990)
+let use=books.filter((bk) => bk.genre==="physics" && bk.edition>1900)
 console.log(use)

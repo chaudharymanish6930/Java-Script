@@ -8,7 +8,7 @@ const jsuser={
 }
 
 for (let i in jsuser){
-    console.log(jsuser[i]) // only value
+    console.log(i,"---",jsuser[i]) // only value
 } // output
 // Manish
 // 18

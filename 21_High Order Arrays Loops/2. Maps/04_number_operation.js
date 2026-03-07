@@ -1,5 +1,15 @@
 const num=[1,2,3,4,5,6,7,8,9,10]
 
 const new1= num.map((num) => num+10)
-
 console.log(new1);
+
+const new2= num.map((num) => {
+    num=num+10
+})
+console.log(new2);  // Undefined in the all cases
+
+const new3= num.map((num) => {
+    num=num+10
+    return num; 
+})
+console.log(new3);  // [11,12,13,14,15,16,17,18,19,20]

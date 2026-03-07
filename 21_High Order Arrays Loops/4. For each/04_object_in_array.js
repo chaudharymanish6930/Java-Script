@@ -14,5 +14,9 @@ let array=[
 ]
 
 array.forEach((item)=>{
+    console.log(item)
+})
+console.log("=====================================")    
+array.forEach((item)=>{
     console.log(item.language)
 })

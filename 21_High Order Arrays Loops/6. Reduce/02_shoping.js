@@ -16,6 +16,6 @@ const array=[
         price:8999
     }
 ]
-
+// acc initialised first
 const add=array.reduce((acc, item) => acc + item.price,0)
 console.log(add)

@@ -13,5 +13,4 @@ for(const [key, value] of map){
 }
 // IN :- india
 // USA :- united state of America
-
 // fr :- france

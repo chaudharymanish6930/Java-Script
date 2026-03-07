@@ -4,7 +4,7 @@ array.forEach( function (item){
     console.log(item)
 })
 
-// Basics....
+// Basics.... Arrow function
 array.forEach((item)=>{
     console.log(item)
 })
