@@ -97,4 +97,111 @@ NodeList(5) [h2#subtitle.h2, h2, h2, h2, h2]0: h2#subtitle.h2attributeStyleMap:
 document.querySelector("h2");
 <h2 id=​"subtitle" class=​"h2">​This is a subtitle​</h2>​
 
+document.querySelector('#title')
+<h1 id=​"title" class=​"h1">​"Hello, DOM! "<span id=​"highlight" style=​"display:​none">​highlight​</span>​</h1>​
+document.querySelector('.h1')
+<h1 id=​"title" class=​"h1">​…​</h1>​
 
+document.querySelector('input[type="pasword"]');
+null
+document.querySelector('input[type="password"]');
+<input type=​"password" name=​"form" id>​
+
+// ul  and li
+document.querySelector('ul')
+<ul>​…​</ul>​
+const myul=document.querySelector('ul');
+undefined
+myul.querySelector("li")
+<li>​::marker​"one"</li>​
+const turnGreen= myul.querySelector('li');
+undefined
+turnGreen.style.backgroundColor='green'
+'green'
+turnGreen.style.padding='10px';
+'10px'
+turnGreen.innerText;
+'one'
+
+// NodeList
+document.querySelectorAll('li')
+NodeList(4) [li, li, li, li]0: li1: li2: li3: lilength: 4[[Prototype]]: NodeList
+const templiList = document.querySelectorAll('li');
+undefined
+templiList
+NodeList(4) [li, li, li, li]0: li1: li2: li3: lilength: 4[[Prototype]]: NodeListentries: ƒ entries()forEach: ƒ forEach()item: ƒ item()keys: ƒ keys()length: (...)values: ƒ values()constructor: ƒ NodeList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "NodeList"get length: ƒ length()[[Prototype]]: Object
+const myArr=[1,2,3,4]
+undefined
+myArr;
+(4) [1, 2, 3, 4]0: 11: 22: 33: 4length: 4[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+templiList.style.color='green';
+VM2028:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:23
+(anonymous) @ VM2028:1
+templiList[1].style.color='red';
+'red'
+templiList[1].style.color='yellow';
+'yellow'
+templiList[0].style.color='red';
+'red'
+const myh1=document.querySelectorAllL('h1');
+VM2271:1 Uncaught TypeError: document.querySelectorAllL is not a function
+    at <anonymous>:1:21
+(anonymous) @ VM2271:1
+const myh1=document.querySelectorAll('h1');
+undefined
+myh1
+NodeList(3) [h1#title.h1, h1, h1]
+myh1[0].style.color='green';
+'green'
+myh1[3].style.color='green';
+VM2510:1 Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+    at <anonymous>:1:9
+(anonymous) @ VM2510:1
+myh1[1].style.color='green';
+'green'
+myh1[2].style.color='green';
+
+'green'
+templiList.forEach(function (i) {
+    l.style.color="safron"})
+VM2685:2 Uncaught ReferenceError: l is not defined
+    at <anonymous>:2:5
+    at NodeList.forEach (<anonymous>)
+    at <anonymous>:1:12
+(anonymous) @ VM2685:2
+(anonymous) @ VM2685:1
+templiList.forEach(function (i) {
+    i.style.color="safron"})
+undefined
+templiList.forEach(function (i) {
+    i.style.backgroundColor='red';
+})
+undefined
+
+{/* Nodelist Converted into the array then, i can apply any method of array on the nodelist */}
+document.getElementsByClassName('list-item');
+HTMLCollection [][[Prototype]]: HTMLCollectionitem: ƒ item()length: (...)namedItem: ƒ namedItem()constructor: ƒ HTMLCollection()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "HTMLCollection"get length: ƒ length()[[Prototype]]: Object
+const tempClassList =document.getElementsByClassName('list-item');
+
+undefined
+tempClassList.forEach(function (li){
+    console.log(li);
+})
+VM3045:1 Uncaught TypeError: tempClassList.forEach is not a function
+    at <anonymous>:1:15
+(anonymous) @ VM3045:1
+tempClassList
+HTMLCollection []
+Array.from(tempClassList)
+[]length: 0[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+const = myConvertedArray=Array.from(tempClassList)
+VM3279:1 Uncaught SyntaxError: Unexpected token '='
+const  myConvertedArray=Array.from(tempClassList);
+undefined
+myConvertedArray
+    
+[]
+myConvertedArray.forEach(function (li) {
+    li.style.color='orange';});
+undefined
