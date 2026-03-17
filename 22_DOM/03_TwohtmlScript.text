@@ -1,0 +1,61 @@
+two.html:56 <div class=​"parent">​…​</div>​
+two.html:57 HTMLCollection(4) [div.days, div.days, div.days, div.days]
+two.html:58 <div class=​"days">​Wednesday​</div>​
+two.html:59 <div class=​"days" style=​"color:​ orange;​">​Monday​</div>​
+two.html:60 Tuesday
+two.html:63 <div class=​"days" style=​"color:​ orange;​">​Monday​</div>​
+two.html:64 Monday
+two.html:63 <div class=​"days">​Tuesday​</div>​
+two.html:64 Tuesday
+two.html:63 <div class=​"days">​Wednesday​</div>​
+two.html:64 Wednesday
+two.html:63 <div class=​"days">​Thrusday​</div>​
+two.html:64 Thrusday
+
+two.html:72 <div class=​"days" style=​"color:​ orange;​">​Monday​</div>​
+two.html:73 <div class=​"parent">​<div class=​"days" style=​"color:​ orange;​">​Monday​</div>​<div class=​"days">​Tuesday​</div>​<div class=​"days">​Wednesday​</div>​<div class=​"days">​Thrusday​</div>​</div>​
+two.html:74 <div class=​"days">​Tuesday​</div>​
+
+
+NodeList(11) [text, comment, text, div.days, text, div.days, text, div.days, text, div.days, text]
+0
+: 
+text
+1
+: 
+comment
+2
+: 
+text
+3
+: 
+div.days
+4
+: 
+text
+5
+: 
+div.days
+6
+: 
+text
+7
+: 
+div.days
+8
+: 
+text
+9
+: 
+div.days
+10
+: 
+text
+length
+: 
+11
+[[Prototype]]
+: 
+NodeList
+
+// for thirdHtml file
