@@ -16,5 +16,15 @@
     div.className="main";
     // div.id="MyId";
     div.id= Math.round(Math.random()*10+1);
+    div.setAttribute("title",'generated title');
+    div.style.backgroundColor="blue";
+    div.style.padding='12px';
+    // div.innerText="Chai Or code";
+    const addtext =document.createTextNode("Chai aur Code");
+    div.appendChild(addtext);
+
+    document.body.appendChild(div);
+    // <div class="main" id="5" title="generated title" 
+    // style="background-color: blue; padding: 12px;">Chai aur Code</div>
 </script>
 </html>
