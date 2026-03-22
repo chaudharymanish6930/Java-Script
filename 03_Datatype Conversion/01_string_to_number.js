@@ -6,7 +6,7 @@ let valueInNumber = Number(score2)     // string
 console.log(typeof (valueInNumber));   // number
 console.log(valueInNumber);   // 33
 
- //2
+//2
 let score ="33sfsg"
 console.log(typeof score);    // string
 
@@ -26,4 +26,3 @@ console.log(typeof score);    // object
 valueinNumber = Number(score)   
 console.log(typeof valueinNumber);  // number
 console.log(valueinNumber);  /// 0
-

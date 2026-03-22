@@ -1,5 +1,5 @@
 const gamename = new String('rohit');
-console.log(gamename); // Output: rohit
+console.log(gamename); // [String :'rohit]
 
 console.log(typeof gamename); // Output: object
 

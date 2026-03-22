@@ -1,5 +1,5 @@
 const gamename = new String('manish');
-console.log(gamename); // Output: PUBG
+console.log(gamename); // [String:'manish]
 
 console.log(typeof gamename); // Output: object
 

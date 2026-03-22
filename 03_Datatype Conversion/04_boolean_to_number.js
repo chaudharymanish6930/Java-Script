@@ -6,7 +6,6 @@ let ValueINNumber = Number(score4)
 console.log(typeof ValueINNumber); // nuumber
 console.log(ValueINNumber);   // 1
 
-
 /// second for a false value in boolean 
 score4 =false
 

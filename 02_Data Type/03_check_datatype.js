@@ -1,4 +1,4 @@
-console.log(typeof "manish");
+console.log(typeof"manish");
 console.log(typeof "1238");
 console.log(typeof "1");
 

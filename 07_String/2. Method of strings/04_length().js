@@ -1,5 +1,5 @@
 const gamename = new String('mahinder singh dhoni');
-console.log(gamename); // Output: PUBG
+console.log(gamename); 
 
 console.log(typeof gamename); // Output: object
     
