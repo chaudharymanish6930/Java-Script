@@ -6,9 +6,9 @@ console.log(array3);
 
 array.push(array2);  // on same array
 console.log(array);
-
 // ["a", "b", 1, 2, true, ["c", "d", 3, 4, false]]
-console.log(array[5][3]);  // ["c", "d", 3, 4, false]
+
+console.log(array[5][3]);  // 4
 
 // Spread operator
 let array4=[...array,...array2];

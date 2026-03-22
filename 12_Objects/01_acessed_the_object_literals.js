@@ -8,11 +8,12 @@ const jsuser={
     location: 'India',
     email: "manishch@gmail.com",
     isloggedin: true,
-    lastlogin:["monday", "tuesday", "wednesday"],
+    lastlogin:["monday", "tuesday", "wednesday"]
 }
 
 // accessed by the dots   mostly ussed
 console.log("User email:", jsuser.email);  // manishch@gmail.com
 console.log(jsuser["email"])  // manishch@gmail.com
 console.log(jsuser["location"])   // India
-console.log(jsuser["lastlogin"])   
+console.log(jsuser["lastlogin"])    //  [ 'monday', 'tuesday', 'wednesday' ]
+console.log(jsuser.lastlogin);   //  [ 'monday', 'tuesday', 'wednesday' ]

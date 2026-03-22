@@ -7,7 +7,7 @@ console.log(mydate.toString()); // output: Wed Sep 08 2021 12:00:00 GMT+0530 (In
 console.log(mydate.toDateString());  // output: Wed Sep 08 2021
 console.log(mydate.toLocaleString());  // output: 9/8/2021, 12:00:00 PM
 
-// ---- not more inportant ----
+// ---- not more important ----
 console.log(mydate.toTimeString());  // output: 12:00:00 GMT+0530 (India Standard Time)
 console.log(mydate.toLocaleDateString());  // output: 9/8/2021
 console.log(mydate.toLocaleString());  // output: 9/8/2021, 12:00:00 PM
