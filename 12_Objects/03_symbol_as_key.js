@@ -1,12 +1,12 @@
 // object literals
 
-const mysym=Symbol('mysymbol');  // symbol
+const mysym=Symbol('my symbol');  // symbol
 
 const jsuser={
     name: 'Manish',
     age: 18,
     location: 'India',
-    mysym: 'my symbol',
+    mysym: 'my symbollll',
     lastlogin:["monday", "tuesday", "wednesday"],
 }
 

@@ -11,6 +11,7 @@ let obj1={
 }
 
 // accessing the object in object
+console.log(obj1)
 console.log(obj1.fullname); // { username: { firstname: 'Mahendra', midlename: 'Singh', lastname: 'Dhoni' } }
 console.log(obj1.fullname.username); // { firstname: 'Mahendra', midlename: 'Singh', lastname: 'Dhoni' }
 console.log(obj1.fullname.username.firstname); // Mahendra 
