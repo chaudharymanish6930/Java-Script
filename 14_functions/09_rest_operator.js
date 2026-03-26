@@ -13,6 +13,8 @@ console.log(calcluateprices(100, 200, 300 )) // [ 100, 200, 300 ]
 // 3  
 function calculate(var1,var2,...num1){
     // return var2  // 200
+    console.log(var1); // 100
+    console.log(var2);  // 200
     return num1
 }
 

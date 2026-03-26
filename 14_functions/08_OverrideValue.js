@@ -5,6 +5,6 @@ function login(username="mohit"){
     return `${username} just log in`
 }
 
-console.log(login()) // mohit just log in
-login("Manish"); // Manish just log in
+console.log(login()) // mohit just log in by default value
+console.log(login("Manish")); // Manish just log in
 // override thevalue of the username

@@ -4,5 +4,5 @@ function pass(username){
     }
     return `${username} just log in`     
 }
-
-console.log(pass("Manish")) // Manish just log in
+console.log(pass())
+console.log(pass("Manish")) // Manish just log-in

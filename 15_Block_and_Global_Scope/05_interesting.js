@@ -8,7 +8,8 @@ console.log(one(4))  // its is  correct  5
 // two()  it is not allowed
 // two also konw as the experession function
 const two =function(num){
+    console.log(num)
     return num +2
 }
 
-two()
+console.log(two(67));

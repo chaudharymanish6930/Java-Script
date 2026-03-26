@@ -1,4 +1,5 @@
 var a=900
+console.log(a);
 if(true){
     var a=10;
     const b=20;

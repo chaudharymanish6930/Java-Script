@@ -4,7 +4,6 @@ function pass(username){
     }
     return `${username} just log in`     
 }
-
 console.log(pass("Manish")) // Manish just log in
 
 function passes(username="aman"){
@@ -13,5 +12,5 @@ function passes(username="aman"){
     }
     return `${username} just log in`     
 }
-
+console.log(passes(""))
 console.log(passes("Manish")) // Manish just log in

@@ -1,5 +1,5 @@
 function login(username){
-    return `${username} just log in`
+    return `${username} just log-in`
 }
 
 console.log(login("Manish")) 
