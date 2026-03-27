@@ -3,5 +3,4 @@
 }) ("rhoit sharma");
 
 // in a single line
-
 ((name) => (console.log(name)))("manish")

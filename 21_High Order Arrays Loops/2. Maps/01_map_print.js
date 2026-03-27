@@ -6,7 +6,7 @@ map.set('IN',"india") // not again print
 // it contains only uniique value
 
 console.log(map)
-console.log(typeof map);
+console.log(typeof map); // object
 
 // accessing through key in loop
 for(var mp of map){

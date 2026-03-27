@@ -1,3 +1,4 @@
+// it is used to provide the default when a varoable is null && undefined
 let val1=5??10
 console.log(val1)  // 5
 
@@ -12,3 +13,6 @@ console.log(val4)   // 10
 
 let val5 = undefined ?? null
 console.log(val5)   // null
+
+let val6 = null ?? undefined
+console.log(val6)

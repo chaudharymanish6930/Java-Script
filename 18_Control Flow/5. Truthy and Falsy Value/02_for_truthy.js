@@ -15,3 +15,15 @@ if(function(){}){
 else{
     console.log("not, exist")
 }
+
+if([]){
+    console.log("Hello,shivam")
+}
+
+if('false'){
+    console.log("false")
+}
+
+if(function(){}){
+    console.log("Function")
+}

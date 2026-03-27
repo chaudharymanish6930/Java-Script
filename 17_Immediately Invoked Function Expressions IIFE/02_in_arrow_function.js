@@ -6,7 +6,7 @@
 })();
 
 // arrow function
-(()=>("manish"))(); // Wow!! one line
+(()=>console.log("manish"))(); // Wow!! one line
 
 // invoked in this arrow
 (() => {

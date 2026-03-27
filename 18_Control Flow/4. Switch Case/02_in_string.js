@@ -1,5 +1,4 @@
 const month="february"
-
 switch(month){
     case "jan":
         console.log("january")
