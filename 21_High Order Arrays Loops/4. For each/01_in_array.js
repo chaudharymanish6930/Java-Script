@@ -8,3 +8,6 @@ array.forEach( function (item){
 array.forEach((item)=>{
     console.log(item)
 })
+
+// WITHOUT USING RETURN KEYWORD
+array.forEach((item)=>console.log(item))
