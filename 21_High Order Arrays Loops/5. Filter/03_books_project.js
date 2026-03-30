@@ -19,3 +19,6 @@ console.log(user)
 // multiple conditions
 let use=books.filter((bk) => bk.genre==="physics" && bk.edition>1900)
 console.log(use)
+
+const user1=books.filter((bs) => {return (bs.edition>1990 && bs.genre==='de')})
+console.log(user1)

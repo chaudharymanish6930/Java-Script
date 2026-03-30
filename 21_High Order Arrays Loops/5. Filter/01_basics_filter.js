@@ -1,5 +1,5 @@
 // 1  return a list
-const num=[1,2,3,4,5,6,7,8,9,10]
+const num=[1,20,35,4,58,4,3,68,2,10]
 const num1=num.filter((num)=> num>4)
 console.log(num1);
 
