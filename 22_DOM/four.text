@@ -29,3 +29,58 @@ VM478:1 Uncaught SyntaxError: Identifier 'secondLang' has already been declared
 console.log(secondLang);
 VM549:1 <li>​Python​</li>​
 undefined
+
+function AddLanguage(lang){
+        const li = document.createElement('li');
+        li.innerHTML=`${lang}`;
+        document.querySelector('.language').appendChild(li);
+    }
+    AddLanguage("Python");
+    AddLanguage("Java Lover")
+undefined
+const secondLang=document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+VM593:2 <li>​::marker​"Python"</li>​
+undefined
+ddLanguage("Python");
+    AddLanguage("Java Lover")
+VM648:1 Uncaught ReferenceError: ddLanguage is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM648:1
+AddLanguage("Python");
+    AddLanguage("Java Lover")
+undefined
+AddLanguage("Python");
+    AddLanguage("Java Lover")
+undefined
+const secondLang=document.querySelector("li:nth-child(4)")
+    console.log(secondLang);
+VM704:2 <li>​::marker​"Python"</li>​
+undefined
+
+const firstLang = document.querySelector('li:first-child')
+undefined
+
+    firstLang.outerHTML="<li>TypeScript</li>"
+'<li>TypeScript</li>'
+const lastLang=document.querySelector("li:last-child");
+    lastLang.remove();
+undefined
+
+
+const firstLang = document.querySelector('li:first-child')
+    firstLang.outerHTML="<li>TypeScript</li>"
+'<li>TypeScript</li>'
+function AddOptiLanguage(langName){
+        const li=document.createElement('li');
+        // const addText = document.createTextNode(langName);
+        // li.appendChild(addText);
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+    AddOptiLanguage("Python Optimization");
+    AddOptiLanguage("Java Lover")
+undefined
+const lastLang=document.querySelector("li:last-child");
+    lastLang.remove();
+undefined
