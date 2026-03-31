@@ -1,0 +1,31 @@
+const li=document.createElement('li')
+undefined
+li.innerHTML="hello bABY";
+'hello bABY'
+document.querySelector('.language').appendChild("li")
+VM438:1 Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+    at <anonymous>:1:37
+(anonymous) @ VM438:1
+function AddLanguage(lang){
+        const li = document.createElement('li');
+        li.innerHTML=`${lang}`;
+        document.querySelector('.language').appendChild(li);
+    }
+    AddLanguage("Python");
+    AddLanguage("Java Lover")
+undefined
+const li = document.createElement('li');
+        li.innerHTML='Manish';        document.querySelector('.language').appendChild(li);
+<li>​…​</li>​
+const secondLang=document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+VM470:1 Uncaught SyntaxError: Identifier 'secondLang' has already been declared
+secondLang=document.querySelector("li:nth-child(2)")
+VM474:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:11
+(anonymous) @ VM474:1
+const secondLang=document.querySelector("li:nth-child(2)")
+VM478:1 Uncaught SyntaxError: Identifier 'secondLang' has already been declared
+console.log(secondLang);
+VM549:1 <li>​Python​</li>​
+undefined
