@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body style="background-color: #212121; color:#ffff">
-
+ // 33 
 </body>
 <script>
     const div=document.createElement('div');
@@ -17,9 +17,12 @@
     // div.id="MyId";
     div.id= Math.round(Math.random()*10+1);
     div.setAttribute("title",'generated title');
+    // div.setAttribute("class","Manish")
     div.style.backgroundColor="blue";
     div.style.padding='12px';
-    // div.innerText="Chai Or code";
+    // div.innerText="Chai Or code"; 
+    // this is not good becsuse overide the value
+     
     const addtext =document.createTextNode("Chai aur Code");
     div.appendChild(addtext);
 

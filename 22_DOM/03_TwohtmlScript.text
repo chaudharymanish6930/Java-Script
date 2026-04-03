@@ -58,4 +58,38 @@ length
 : 
 NodeList
 
-// for thirdHtml file
+const head=document.createElement('h1');
+
+VM285:1 Uncaught ReferenceError: log is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM285:1
+console.log(head)
+VM387:1 <h1>​</h1>​
+undefined
+head.className="Rohit"
+'Rohit'
+head.id="Manish"
+'Manish'
+console.log(head)
+VM596:1 <h1 class=​"Rohit" id=​"Manish">​</h1>​
+undefined
+head.setAttribute(class:"Sweety")
+VM756:1 Uncaught SyntaxError: Unexpected token ':'
+head.setAttribute(class,"Sweety")
+VM766:1 Uncaught SyntaxError: Unexpected token ','
+head.setAttribute("class","Sweety")
+undefined
+console.log(head)
+VM849:1 <h1 class=​"Sweety" id=​"Manish">​</h1>​
+undefined
+head.bgc
+undefined
+head.style.backgroundColor="yello"
+'yello'
+head.style.backgroundColor="yellow"
+'yellow'
+const add = document.createTextNode("India")
+undefined
+head.append(add)
+undefined
+document.body.appendChild(head)
