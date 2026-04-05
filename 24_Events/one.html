@@ -20,9 +20,10 @@
    </div>
 </body>
 <script>
-    // document.getElementById('owl').onclick = function(){
-    //     alert("Owl Clicked");
-    // }
+    document.getElementById('owl').onclick = function(){
+        alert("Owl Clicked");
+    }
+
     // third and best approach
     // document.getElementById('owl').addEventListener('click',function(){
     //     alert("owl click again")
@@ -30,8 +31,82 @@
 
     // attachEvent();
     // jQuery - on
-    document.getElementById('owl').addEventListener('click',function(e){
-        console.log(e);
-    })
+    // two events like- browser and 
+    // type(keyboard, mouse event), timestamp, defaultPrevented 
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY
+    // altKey, crtlkey, shiftkey, keyCode
+    
+
+    // document.getElementById('owl').addEventListener('click',function(e){
+    //     console.log(e);
+    // }, false)
+    
+
+    // now here is the bubbling and capturing propagation
+    // 1. Bubbling propagating- first inside then outside
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Click inside the ul")
+    // }, false)
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("Click on the Owl");
+    // },false);
+
+    // 2. Capturing Propagating- first outside then inside
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Click inside the ul")
+    // },true)
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("Click on the OWl")
+    // },true);
+
+    // here the e.stopPropagation 
+    // 1. stop at the li element - not goes outside
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Click inside the ul")
+    // }, false)
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("Click on the Owl");
+    //     e.stopPropagation();
+    // },false);
+
+    // 2. stop at the ul element - not goes inside
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Click inside the ul")
+    //      e.stopPropagation();
+    // }, false)
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("Click on the Owl");
+    // },false);
+
+    // preventDefault()
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Click inside the ul")
+    // }, false)
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("Click on the Owl");
+    // },false);
+    // document.getElementById('google').addEventListener('click', (e)=>{
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     console.log("Google Clicked")
+    // },false) // here also shows the bubbling
+
+    document.querySelector('#images').addEventListener('click', (e)=>{
+        // console.log(e.target) // tell us whose image targets
+        // console.log(e.target.parentNode); // return full li details
+        // let removeIt=e.target.parentNode;
+        // 1. removeIt.remove()
+        // 2. removeIt.parentNode.removeChild(removeIt)
+        console.log(e.target.tagName);
+        // 'A' for ancharTag
+        if(e.target.tagName === 'IMG'){
+            console.log(e.target.id);
+            let removeit=e.target.parentNode
+            removeit.remove();
+        }
+    },false)
+
+
 </script>
 </html>
