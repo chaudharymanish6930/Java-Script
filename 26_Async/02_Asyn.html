@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai or JavaScript</h1>
+    <button id="Start">Start</button>
+    <button id="Stop">Stop</button>
+</body>
+<script>
+
+    // here for start button
+    // First Try
+    // document.getElementById('Start').addEventListener('click', function(){
+    //     setInterval(()=>{
+    //         console.log("I love My india",date.now())
+    //     },1000)
+    //     console.log("Start")
+    // })
+
+    // Second Try
+    // let work;
+    // document.getElementById('Start').addEventListener('click', function(){
+    //     const abs =()=>{
+    //         console.log("I love My india")
+    //     }
+    //     work=setInterval(abs,1000);
+    //     console.log("Start")
+    // })
+
+    // document.querySelector("#Stop").addEventListener('click', function(){
+    //     clearInterval(work)
+    //     console.log("Stop")
+    // })
+
+    let set;
+    document.querySelector('#Start').addEventListener('click', ()=>{
+        function abs(){
+            console.log("Hello World");
+        }
+        set = setInterval(abs); //
+        console.log("Start");
+    })
+    document.getElementById('Stop').addEventListener('click', ()=>{
+        clearInterval(set);
+        console.log("Stoped")
+    })
+
+</script>
+</html>

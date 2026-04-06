@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai or Code</h1>
+    <button id="Stop">Stop</button>
+</body>
+<script>
+    // 1.
+    // setTimeout(function(){
+    //     console.log("Hello World");
+    // },1000);
+    
+    // 2.
+    // const sayHitesh = function(){
+    //     console.log("Manish");
+    // }
+    // setTimeout(sayHitesh,1000);
+
+    // 3.
+    const changeText = function(){ 
+    document.querySelector('h1').innerHTML="Best js Series"
+    }
+    const changeName=setTimeout(changeText,2000)
+    // clearTimeout(changeName)
+    // by event object
+    document.querySelector("#Stop").addEventListener('click',function(){
+        clearTimeout(changeName)
+        console.log("Stopped")
+    })
+
+    // setInterval
+    // 1.
+    // setInterval(function(){
+    //     console.log("Manish",Date.now())
+    // },1000)
+
+    // 2.
+    // const saydate=function(str){
+    //     console.log(str,"Manish",Date.now())
+    // }
+    // const etr=setInterval(saydate,1000,"Hello")
+    // clearInterval(etr)
+    
+    // 3.
+    // document.getElementById('Start').addEventListener('click', function(){
+    //     setInterval(()=>{
+    //         console.log("I love My india",date.now())
+    //     },1000)
+    //     console.log("Start")
+    // })
+</script>
+</html>
