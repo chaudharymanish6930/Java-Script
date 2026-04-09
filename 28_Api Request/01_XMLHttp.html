@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121">
+    <!-- XMLHttpRequest (XHR) objects are used to interact with servers.
+    You can retrieve data from a URL without having to do a full page refresh. 
+    This enables a Web page to update just part of a page without disrupting what the user is doing.
+
+EventTarget <- XMLHttpRequestEventTarget <- XMLHttpRequest
+XMLHttpRequest can be used to retrieve any type of data, not just XML.
+ -->
+
+
+ <!-- 
+Value	State	Description
+0	   UNSENT	Client has been created. open() not called yet.
+1	   OPENED	open() has been called.
+2	   HEADERS_RECEIVED	send() has been called, and headers and status are available.
+3	   LOADING	Downloading; responseText holds partial data.
+4	   DONE	   The operation is complete.
+ -->
+</body>
+<script>
+    // 1.
+    // const requestUrl ='https://api.github.com/users/hiteshchoudhary';
+    // const xhr = XMLHttpRequest() // class... method
+    // xhr.open('GET',requestUrl)  // 1 state
+    // // console.log("HERE")
+    // console.log(xhr.readyState); // output: 1
+    // xhr.send();
+
+
+    // 2.
+    //  const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('GET', requestUrl)
+    // xhr.onreadystatechange = function(){
+    //     console.log(xhr.readyState);
+    // }
+    // xhr.send();
+
+    // 3
+    // const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('GET', requestUrl)
+    // xhr.onreadystatechange = function(){
+    //     console.log(xhr.readyState);
+    //      if (xhr.readyState === 4) {
+    //         // console.log(responseText)
+    //         console.log(this.responseText)
+    //     }
+    // }
+    // xhr.send();
+
+    // 4
+    // const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('GET', requestUrl)
+    // xhr.onreadystatechange = function(){
+    //     console.log(xhr.readyState);
+    //      if (xhr.readyState === 4) {
+    //         // console.log(responseText)
+    //         console.log(this.responseText)
+    //     }
+    // }
+    // xhr.send();
+
+    // 5
+    // const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('GET', requestUrl)
+    // xhr.onreadystatechange = function(){
+    //     console.log(xhr.readyState);
+    //      if (xhr.readyState === 4) {
+    //         const data=this.responseText;
+    //         console.log(typeof data); // String
+    //         console.log(data.followers) // undefined
+
+    //     }
+    // }
+    // xhr.send();
+
+    // 6
+    const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+         if (xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText)
+            console.log(typeof data); // object
+            console.log(data.followers) // undefined
+            
+        }
+    }
+    xhr.send();
+
+</script>
+</html>
