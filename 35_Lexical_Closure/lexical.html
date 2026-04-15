@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: #313131;">
+    
+</body   >
+<script>
+    function outer(){
+        let username="hitesh"
+        function inner(){
+            let secret=9876
+            console.log("Inner :",username);
+            function tooInner(){
+                console.log(secret)
+                console.log(username)
+            }
+        }
+        function TwoInner(){
+            console.log("TOO Inner :",username);
+        }
+        inner();
+        TwoInner();
+    }
+    console.log(username)
+</script>
+</html>
