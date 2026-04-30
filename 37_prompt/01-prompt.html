@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Koshary Problem</title>
+</head>
+<body>
+
+<script>
+function canReach(x, y) {
+    return (x % 2 === 1 && y % 2 === 1) ? "NO" : "YES";
+}
+
+// runs when page loads
+let t = Number(prompt("Enter number of test cases:"));
+
+for (let i = 0; i < t; i++) {
+    let x = Number(prompt("Enter x:"));
+    let y = Number(prompt("Enter y:"));
+
+    let result = canReach(x, y);
+    alert("Result: " + result);
+}
+</script>
+
+</body>
+</html>
